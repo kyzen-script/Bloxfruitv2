@@ -6745,11 +6745,10 @@ spawn(function()
             if HighestPointRealCFrame and (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - HighestPointRealCFrame.Position).Magnitude > 10 then
             Tween(getHighestPoint().CFrame * CFrame.new(0, 211.88, 0))
                 end
-        elseif not game:GetService("Workspace").Map:FindFirstChild("MysticIsland") or not game:GetService("Workspace").Map:FindFirstChild("MysticIsland") then
+                elseif not game:GetService("Workspace").Map:FindFirstChild("MysticIsland") then
             Hop()
             end
         end
     end
 end)
 end
-----------------------------------------------------------------------------------------------------------------------------------------------
